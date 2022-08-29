@@ -1,13 +1,13 @@
-package Introduction;
+package Strings;
 
 import java.util.Scanner;
 
 public class Substring {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String S = sc.next();
-        int start = sc.nextInt();
-        int end = sc.nextInt();
+        Scanner in = new Scanner(System.in);
+        String S = in.next();
+        int start = in.nextInt();
+        int end = in.nextInt();
         String substring = S.substring(start, end);
         System.out.println(substring);
     }
