@@ -6,14 +6,14 @@ class Singleton {
     private Singleton() {
     }
 
-    static Main getSingleInstance() {
-        return new Main();
+    static Singleton getSingleInstance() {
+        return new Singleton();
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        Main singleton = Singleton.getSingleInstance();
+        Singleton singleton = Singleton.getSingleInstance();
     }
 }
 
