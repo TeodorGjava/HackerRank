@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Scanner;
 
 class Student{
-    private int id;
-    private String fname;
-    private double cgpa;
+    private final int id;
+    private final String fname;
+    private final double cgpa;
     public Student(int id, String fname, double cgpa) {
         super();
         this.id = id;
