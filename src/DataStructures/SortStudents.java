@@ -29,19 +29,19 @@ public class SortStudents {
         Scanner in = new Scanner(System.in);
         int testCases = Integer.parseInt(in.nextLine());
 
-        List<Student> studentList = new ArrayList<Student>();
+        List<StudentToSort> studentList = new ArrayList<StudentToSort>();
         while(testCases>0){
             int id = in.nextInt();
             String fName = in.next();
             double cgpa = in.nextDouble();
 
-            Student st = new Student(id, fName, cgpa);
+            StudentToSort st = new StudentToSort(id, fName, cgpa);
             studentList.add(st);
 
             testCases--;
         }
 
-        for(Student st: studentList){
+        for(StudentToSort st: studentList){
             System.out.println(st.getFname());
         }
     }
