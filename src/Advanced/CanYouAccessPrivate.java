@@ -2,7 +2,7 @@ package Advanced;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.io.Serial;
+
 import java.security.Permission;
 
 public class CanYouAccessPrivate {
@@ -39,7 +39,6 @@ class DoNotTerminate { //This class prevents exit(0)
 
     public static class ExitTrappedException extends SecurityException {
 
-        @Serial
         private static final long serialVersionUID = 1L;
     }
 
