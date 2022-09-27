@@ -1,4 +1,4 @@
-package Advanced;
+package Java.Advanced;
 
 import java.security.Permission;
 import java.util.Scanner;

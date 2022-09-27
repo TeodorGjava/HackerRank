@@ -1,4 +1,4 @@
-package OOP;
+package Java.OOP;
 
 abstract class Arithmetic {
     int add(int a, int b) {

@@ -1,8 +1,6 @@
-package BigInteger;
+package Java.BigInteger;
 
-import java.math.BigDecimal;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class CollectionSortBigDecimal {
     public static void main(String []args){

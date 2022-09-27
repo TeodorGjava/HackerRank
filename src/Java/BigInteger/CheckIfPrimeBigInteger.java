@@ -1,14 +1,9 @@
-package BigInteger;
+package Java.BigInteger;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.math.BigDecimal;
 import java.math.BigInteger;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.stream.Collectors;
 
 public class CheckIfPrimeBigInteger {
     public static void main(String[] args) throws IOException {

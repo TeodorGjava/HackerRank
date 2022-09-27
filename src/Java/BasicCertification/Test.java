@@ -1,4 +1,4 @@
-package BasicCertification;
+package Java.BasicCertification;
 
 public class Test {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Advanced;
+package Java.Advanced;
 
 class Singleton {
     public String str;

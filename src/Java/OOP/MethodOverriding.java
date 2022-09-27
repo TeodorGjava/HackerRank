@@ -1,4 +1,4 @@
-package OOP;
+package Java.OOP;
 
 class Sports {
     String getName() {
